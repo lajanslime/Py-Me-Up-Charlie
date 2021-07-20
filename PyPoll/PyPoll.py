@@ -69,10 +69,10 @@ with open('Election Results.txt', 'w') as writer:
   writer.write('\n-------------------------')
   writer.write('\n' + "Total Votes: " + str(total_votes))
   writer.write('-------------------------')
-  writer.write('\n' + "Khan: " + str(khan_percentage) + str(khan_votes))
-  writer.write('\n' + "Correy: " + str(correy_percentage) + str(correy_votes))
-  writer.write('\n' + "Li: " + str(li_percentage).format(2) + str(li_votes))
-  writer.write('\n' + "O'Tooley: " +  str(otooley_percentage) + str(otooley_votes))
+  writer.write('\n' + (f"Khan:  {khan_percentage:.2%} + ({khan_votes}"))
+  writer.write('\n' + (f"Correy:  {correy_percentage:.2%}  ({correy_votes}"))
+  writer.write('\n' + (f"Li:  {li_percentage:.2%} ({li_votes}"))
+  writer.write('\n' + (f"O'Tooley:  {otooley_percentage:.2%} ({otooley_votes}"))
   writer.write('\n' + "Winner: " + str(winner))  
 
 
