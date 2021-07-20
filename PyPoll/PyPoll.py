@@ -2,7 +2,7 @@
 import csv 
 import os 
 
-election_csv = os.path.join("/Users/wolfey/Desktop/homework/PyPoll/Resources/election_data.csv")
+election_csv = os.path.join("./PyPoll/Resources/election_data.csv")
 
 total_votes = 0 
 khan_votes = 0 
